@@ -29,8 +29,6 @@ public class Visit {
 		return visit(map,x2,y2,x1,y1,x2,y2);
 	}
 	public int visit(int[][] map,int x,int y,int m,int n,int m1,int n1){
-
-		
 		
 		if(m1>=m&&n1>=n){
 			if(x<m||y<n) return 0;
